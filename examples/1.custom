@@ -1,0 +1,19 @@
+typedef struct Person {
+  char* name;
+  int age;
+} Person;
+
+enum Color {
+  RED,
+  GREEN,
+  BLUE
+};
+
+int a = 10;
+
+int main() {
+  struct Person p = {0, 20};
+  enum Color c = RED;
+  printf("Hello %s\n", name);
+  return 0;
+}
